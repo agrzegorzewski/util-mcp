@@ -1,0 +1,17 @@
+{
+  "name": "util-mcp",
+  "version": "1.0.0",
+  "description": "Simple MCP server with utility tools (time, location, ping)",
+  "main": "server.mjs",
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test test.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "WTFPL",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.1"
+  }
+}
